@@ -18,6 +18,7 @@ namespace canser2.Models
         [Required]
         [Column("date_of_birth")]
         public DateTime DateOfBirth { get; set; }
+        //
 
         [Required]
         [StringLength(10)]
