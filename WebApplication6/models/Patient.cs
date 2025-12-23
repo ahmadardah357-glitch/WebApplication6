@@ -28,7 +28,7 @@ namespace canser2.Models
         // FK → AspNetUsers.Id
         [Required]
         [StringLength(450)]
-        [Column("aspnet_user_id")]
+        [Column("UserId")]
         public string AspNetUserId { get; set; }    
     }
 }
