@@ -1,7 +1,7 @@
-﻿using canser2.Models;
-using FbaApi.Data;
+﻿using FbaApi.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WebApplication6.models.dto;
 
 namespace FbaApi.Controllers
 {

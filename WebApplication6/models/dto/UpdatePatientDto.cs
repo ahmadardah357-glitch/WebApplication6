@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace canser2.Models   // ⚠️ لازم نفس الـ namespace
+namespace WebApplication6.models.dto   // ⚠️ لازم نفس الـ namespace
 {
     public class UpdatePatientDto
     {

@@ -19,5 +19,6 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<Reminder> Reminders { get; set; }
 
     public DbSet<Chat> Chats { get; set; }
+   // public DbSet<Attends> Attendss { get; set; }
     public DbSet<ChatbotSession> ChatbotSessions { get; set; }
 }
